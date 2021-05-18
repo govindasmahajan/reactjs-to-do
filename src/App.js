@@ -4,7 +4,8 @@ function App() {
   return (
     <div>
       <h1>My To Do</h1>
-      <Todo/>
+      <Todo text='Learn React' name='Started'/>
+      <Todo text='Learn React Native' name='Not yet'/>
     </div>
   );
 }
