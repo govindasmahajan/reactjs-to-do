@@ -1,13 +1,10 @@
+import Todo from "./components/Todo";
+
 function App() {
   return (
     <div>
-      <h1>TO DO</h1>
-      <div>
-        <h2>Title</h2>
-        <div>
-        <button>Delete</button>
-        </div>
-      </div>
+      <h1>My To Do</h1>
+      <Todo/>
     </div>
   );
 }
